@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: dropmind-backend
+    volumes:
+      - dropmind_db:/data/db
+      - dropmind_attachments:/data/attachments
+    ports:
+      - "8000:8000"
+    environment:
+      - DROPMIND_API_TOKEN=your-api-token-here
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: dropmind-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  dropmind_db:
+  dropmind_attachments:
