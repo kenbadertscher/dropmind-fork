@@ -50,6 +50,20 @@ It is a self-hosted digital extension of your mind.
 
 ------------------------------------------------------------------------
 
+## 👤 Human + AI Development
+
+DropMind was conceived, designed and architected by a human.
+
+The implementation was developed with the support of AI tools, under
+direct human supervision and decision-making.
+
+Every architectural choice, feature direction and philosophy belongs to
+the project author.
+
+This project embraces AI as a tool --- not as an autonomous creator.
+
+------------------------------------------------------------------------
+
 ## 🏗 Architecture
 
 -   Backend: FastAPI\
@@ -69,7 +83,7 @@ Designed to be lightweight, portable and easy to deploy on:
 ## 🚀 Installation (Docker)
 
 ``` bash
-git clone https://github.com/YOUR_USERNAME/dropmind.git
+git clone https://github.com/oldany/dropmind.git
 cd dropmind
 docker compose up -d
 ```
