@@ -108,6 +108,36 @@ Set the same token in backend environment variables.
 
 ------------------------------------------------------------------------
 
+## 🍎 iOS / iPadOS Shortcut
+
+DropMind integrates with Apple Shortcuts for a seamless mobile workflow.
+
+Using the official Shortcut, you can:
+
+- Share links directly from Safari  
+- Save selected text from any app  
+- Upload images to DropMind
+- Upload files from any app that support share menu
+- Send content to a specific clipboard ( 1 is the default main )
+
+### Install the Shortcut
+
+👉 **Download here:**  
+[Add DropMind Shortcut](https://www.icloud.com/shortcuts/8f39d178512145918c7d1fda03d31c43)
+
+After installation:
+
+1. Open the Shortcut once to grant permissions  
+2. Set your DropMind server URL  
+3. Insert your API token  
+4. Choose your default clipboard  
+
+You're ready.
+
+Fully local. Fully yours.
+
+------------------------------------------------------------------------
+
 ## Why AGPL?
 
 To ensure that DropMind remains open if modified and offered as a public
